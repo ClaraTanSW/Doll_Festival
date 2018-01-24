@@ -1,0 +1,290 @@
+<!-- 
+    IBM In-house {Web Coder} course Assignment Snippet.
+    HTML master file.
+    For internal IBM learning usage.
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Page tag title -->
+    <title>My First Webpage</title>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css">
+    
+    <!-- FontAwesome; code after any Themes and Bootstrap -->
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/fontawesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- Animate -->
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/animatecss/3.5.2/animate.min.css">
+
+    <!-- Customise CSS; code as the last item -->
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+
+    <!-- OUTLINER for development purposes Only - To be commented out for Production releases -->
+        <style type="text/css">
+            /* body{border: 2px solid blue;} */
+            /* .container{border: 2px solid green;} */
+            /* .jumbotron{border: 3px solid purple;} */
+            /* .row{border: 2px dotted red;} */
+            /* .row[class*='col-']{border: 3px solid purple;} */
+            /* .show{border: 3px solid purple;} */
+        </style>
+</head>
+
+<body>
+    <!-- Top Navigation bar -->
+    <nav class="navbar fixed-top navbar-light bg-light">
+        <a class="navbar-brand" href="https://www.ibm.com/ibm/sg/en/" target="_blank">
+            <img src="image/ibm_stripblack.png" alt="">
+        </a>
+    </nav>
+
+    <!-- CONTAINER - code entire page contents within this div class="container"-->
+    <div class="container-fluid">
+        <!-- ROW1: Jumbotron -->
+        <div class="row">
+            <div class="col-xs-12
+                        col-sm-12
+                        col-md-12
+                        col-lg-12">
+                                    <!-- Jumbotron example -->
+                <div class="jumbotron jumbotron-fluid">
+                    <div class="container">
+                        <h1 class="display-4">Hinamatsuri - Doll Festival</h1>
+                        <p class="lead">March 3 marks the observance of the hinamatsuri (doll festival), one of five sekku, or seasonal festivals, celebrated through the year. </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- end of ROW1: Jumbotron -->
+
+        <!-- ROW2: Image-Thumbnails -->
+        <div class="row">
+            <!-- Row2 Col1of3 -->
+            <div class="col-xs-4
+                        col-sm-4
+                        col-md-4
+                        col-lg-4 show">
+                <!-- Image Thumbnail -->
+                <div class="img-thumbnail">
+                    <img src="image/Dolls at Temple.jpg" class="img-fluid rounded" alt="">
+                    <div class="card-body">
+                        <h3>Katsuura Big Hina Matsuri at Tomisaki Shrine, Chiba Prefecture</h3>
+                        <p>One of the most interesting and unique displays of Hina Matsuri Dolls is at Tomisaki Shrine in Katsuura, a small fishing village in Chiba Prefecture near Tokyo.</p>
+                        
+                    </div>
+                </div><br>
+            </div>
+            <!-- end of ROW2 Col1of3 -->
+
+            <!-- ROW2 Col2of3 -->
+            <div class="col-xs-4
+                        col-sm-4
+                        col-md-4
+                        col-lg-4 show">
+                <!-- Image Thumbnail -->
+                <div class="img-thumbnail">
+                    
+                    <img src="image/konosu.jpg" class="img-fluid rounded" alt="">
+                    <div class="card-body">
+                        <h3>Konosu Bikkuri Hina Matsuri Doll Festival</h3>
+                        <p>A spectacular seven meter (22.9 ft) high pyramid of traditional hina dolls can be seen at the shopping mall in front of JR Konosu Station in Saitama Prefecture near Tokyo.</p>
+                        
+                    </div>
+                </div><br>
+            </div>
+            <!-- end of ROW2 Col2of3 -->
+
+            <!-- ROW2 Col3of3 -->
+            <div class="col-xs-4
+                        col-sm-4
+                        col-md-4
+                        col-lg-4 show">
+                <!-- Image Thumbnail -->
+                <div class="img-thumbnail">
+                    <img src="image/RiceChirashi.jpg" class="img-fluid rounded" alt="">
+                    <div class="card-body">
+                        <h3>Chirashi (Rice)</h3>
+                        <p>Layered chirashi sushi, which resembles a cake, is often enjoyed on Japanese Girl's Day</p>
+                                          </div>
+
+                </div><br>
+            </div>
+            <!-- end of ROW2 Col3of3 -->
+        </div>
+        <!-- end of Row2: Image-Thumbnails -->
+
+        <!-- ROW3: Video -->
+        <div class="row">
+            <div class="col-xs-12
+                        col-sm-12
+                        col-md-12
+                        col-lg-12">
+                <!-- Embed Video -->
+                <div class="embed-responsive embed-responsive-16by9">
+                   
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/lWKZWWQHhLs" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                </div>
+            </div>
+        </div><br>
+        <!-- end of ROW3: Video -->
+
+        <!-- ROW4: Form & Text -->
+        <div class="row">
+            <!-- Row4 Col1of2: Form -->
+            <div class="col-xs-6
+                        col-sm-6
+                        col-md-6
+                        col-lg-6 show">
+                <!-- Form -->
+                <div class="card card-default">
+                    <div class="card-body">
+                        <!-- Form Registration -->
+                        <form action="https://script.google.com/macros/s/AKfycbx2UwJqxaPmLYMRvqenC3y1glMyJJAdgeqlYTrLaKvfgSpZaNTr/exec" 
+                            method="post">
+
+                            <legend class="card-header">Sign up with us for more updates</legend>
+                            <br>
+                            <div class="form-group">
+                                <label for="name-id">Name: </label>
+                                <input type="text" name="NAME" id="name-id" placeholder="Hina Doll" class="form-control" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="email-id">Email: </label>
+                                <input type="email" name="EMAIL" id="email-id" placeholder="HinaDoll@email.com" class="form-control" required>
+                            </div>
+                            <br>
+                            <!-- <div class="form-group">
+                                <input type="submit" class="btn btn-primary">
+                            </div> -->
+                            <div class="form-group">
+                                <button type="submit" class="btn btn-primary my-btn form-control" id="submit-id">submit</button>                   
+                                <hr>
+                                <!-- alert-dismissible fadeIn -->
+                                <div class="alert alert-danger alert-dismissible fadeIn" id="alert-id" hidden>
+                                    <button type="button" class="close" id="close-id"><span>&times;</span></button>
+                                    Thank you! I will get in touch.
+                                </div>
+                            </div>
+                        </form>
+                        <!-- end of Form Registration -->
+                    </div>
+                </div><br>
+            </div>
+            <!-- end of Row4 Col1of2: Form -->
+
+            <!-- ROW4 Col2of2: Text -->
+            <div class="col-xs-6
+                        col-sm-6
+                        col-md-6
+                        col-lg-6
+                        text-center show">
+                <h1>DOLL FESTIVAL</h1>
+                <hr>
+                <p>
+                    Hinamatsuri (雛祭り Hina-matsuri), also called Doll's Day or Girls' Day, is a special day in Japan. Hinamatsuri is celebrated each year on March 3rd. Platforms covered with a red carpet are used to display a set of ornamental dolls (雛人形 hina-ningyō) representing the Emperor, Empress, attendants, and musicians in traditional court dress of the Heian period.
+                    Doll's Festival—is celebrated on March 3 to pray for the health and happiness of young girls in Japan. Hinamatsuri, the name of the celebration in Japan, is marked by families displaying a set of hina dolls in the house and serving special food delicacies that are ceremonially beautiful and delicious.
+
+                </p>
+            </div>
+            <!-- end of ROW4 Col2of2: Text -->
+        </div><br>
+        <!-- end of ROW4: Form & Text -->
+
+        <!-- ROW5: Details -->
+        <div class="row">
+            <!-- ROW5 Col1of3: Table -->
+            <div class="col-xs-6
+                        col-sm-6
+                        col-md-6
+                        col-lg-6 show">
+                <!-- Table -->
+            
+                <h3>Place of Interest</h3>
+                <table class="table table-hover">
+                    <thead>
+                        <tr>
+                            <th>Name </th>
+                            <th>Address</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Tomisaki Shrine</td>
+                            <td>299-5233 Hamakatsuura, Katsuura-shi, Chiba, Japan</td>
+                        </tr>
+                        <tr>
+                            <td>Elumi Kounosu Shopping Mall</td>
+                            <td>1 Chome-1-2 Honcho, Kounosu, Saitama Prefecture 365-0038, Japan</td>
+                        </tr>
+                        
+                    </tbody>
+                </table><br>
+            </div>
+
+            <!-- end of ROW5 Col1of3: Table -->
+
+            <!-- ROW5 Col2: Map -->
+            <div class="col-xs-6
+                            col-sm-6
+                            col-md-6
+                            col-lg-6 show">
+                <!-- Embed Map -->
+                <div class="embed-responsive embed-responsive-4by3">
+                    <iframe src="https://goo.gl/kBckE1" class="embed-responsive-item"></iframe>
+                </div><br>
+            </div>
+            <!-- end of ROW5 Col2: Map -->
+
+            
+        </div><hr>
+        <!-- end of ROW5: Details -->
+
+        <!-- ROW6: Footer -->
+        <div class="row">
+            <div class="col-xs-12
+                        col-sm-12
+                        col-md-12
+                        col-lg-12">
+                <ul class="list-inline text-center">
+                    <li class="list-inline-item">
+                        <a href="#">
+                            <i class="fa fa-facebook fa-2x"></i>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a href="#">
+                            <i class="fa fa-twitter fa-2x"></i>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a href="#">
+                            <i class="fa fa-linkedin fa-2x"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <!-- end of ROW6: Footer -->
+
+    </div>
+    <!-- end of CONTAINER - code entire page contents within this div class="container"-->
+
+    <!-- JavaScript - jQuery first, follows by tether.js, Popper.js, then Bootstrap JS in sequence -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/jquery/3.1.1/jquery.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/tether/1.4.0/tether.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js"></script>
+    <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"></script>
+
+    <!-- Customise JavaScript -->
+    <script src="javascript/javascript.js"></script>
+
+</body>
+
+</html>
